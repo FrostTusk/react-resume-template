@@ -2,7 +2,7 @@
   "main": {
     "name":"Mathijs Hubrechtsen",
     "occupation":"Computer Science Student",
-    "description":"An ambitious DIY tinkerer with an entrepreneurial spirit.",
+    "description":"An ambitious DIY tinkerer with an entrepreneurial spirit",
     "image":"profilepic.jpg",
     "bio":"I am a passionate computer science student with aspirations to build my own business some day. To me, technology can be used to create a better tomorrow and I want to show people exactly how. I want to make people believe again, to inspire them to believe that contrary to popular belief, a better tomorrow IS possible. My fields of interest include embedded devices, IoT, and cyber security and how these technologies can be used to improve people's lives.",
     "contactmessage":"Want to get in touch with me? (Contact Form WIP)",
@@ -121,34 +121,64 @@
         "url":"https://hub.industries"
       },
       {
-        "title":"Publication",
-        "category":"Co-authored academic publication on software fuzzing in automotive systems.",
-        "image":"fuzzing-publication.png",
-        "url":"http://adiot2019.compute.dtu.dk/Program.html"
+        "title":"zooWeb",
+        "category":"A DIY home lab and computer network. Originally built by recycling old computer equipment, it has grown to also include an entire IoT network.",
+        "image":"zoo-web-logo.png",
+        "url":"https://hub.industries"
       },
       {
-        "title":"Caring Caribou",
-        "category":"A React based resume website template",
-        "image":"caring-caribou.png",
-        "url":"https://github.com/CaringCaribou/caringcaribou"
-      },
-      {
-        "title":"GitHub Portfolio",
-        "category":"For more of my smaller projects including a calendar server and a stack frame simulator, check out my GitHub portfolio.",
-        "image":"github-logo.png",
-        "url":"https://github.com/FrostTusk"
+        "title":"Malibu Point",
+        "category":"A DIY home lab and computer network. Originally built by recycling old computer equipment, it has grown to also include an entire IoT network.",
+        "image":"malibu-point-logo.png",
+        "url":"https://github.com/FrostTusk/Malibu-Point-HA"
       },
       {
         "title":"G.I.N.G.E.R.",
         "category":"A DIY home lab and computer network. Originally built by recycling old computer equipment, it has grown to also include an entire IoT network.",
         "image":"ginger.jpeg",
-        "url":"https://hub.industries"
+        "url":"https://github.com/FrostTusk/G.I.N.G.E.R."
       },
       {
-        "title":"G.I.N.G.E.R.",
+        "title":"Zoo Museum",
         "category":"A DIY home lab and computer network. Originally built by recycling old computer equipment, it has grown to also include an entire IoT network.",
+        "image":"zoo-museum-logo.png",
+        "url":"https://wiki.hub.industries"
+      },
+      {
+        "title":"Caring Caribou",
+        "category":"A friendly car security exploration tool",
+        "image":"caring-caribou-logo.png",
+        "url":"https://github.com/CaringCaribou/caringcaribou"
+      },
+      {
+        "title":"Publication",
+        "category":"Co-authored academic publication on software fuzzing in automotive systems.",
+        "image":"publication-logo.png",
+        "url":"http://adiot2019.compute.dtu.dk/Program.html"
+      },
+      {
+        "title":"Stream",
+        "category":"Co-authored academic publication on software fuzzing in automotive systems.",
+        "image":"stream-logo.png",
+        "url":"http://twitch.tv/FrostTusk"
+      },
+      {
+        "title":"CSx2",
+        "category":"A way to parse the html calendar of KUL Computer Science to ical format so that it can be added to external calendar applications.",
         "image":"CSx2-logo.png",
-        "url":"https://hub.industries"
+        "url":"https://github.com/FrostTusk/CSx2"
+      },
+      {
+        "title":"ID3-Automator",
+        "category":"Program that automatically adds meta data to mp3 files in the current directory given a wikipedia album link.",
+        "image":"ID3-automator-logo.png",
+        "url":"https://github.com/FrostTusk/ID3-Automator"
+      },
+      {
+        "title":"DRAMA Stapel Tekenaar",
+        "category":"Co-authored academic publication on software fuzzing in automotive systems.",
+        "image":"stapel-tekenaar-logo.png",
+        "url":"https://github.com/FrostTusk/DRAMA-Stapel-Tekenaar"
       }
     ]
   },
