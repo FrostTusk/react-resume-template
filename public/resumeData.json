@@ -18,11 +18,6 @@
     "resumedownload":"https://hub.industries/Mathijs-Hubrechtsen-Resume.pdf",
     "social":[
       {
-        "name":"facebook",
-        "url":"https://www.facebook.com/mathijs.hubrechtsen",
-        "className":"fa fa-facebook"
-      },
-      {
         "name":"linkedin",
         "url":"https://www.linkedin.com/in/mathijs-hubrechtsen-806248199/",
         "className":"fa fa-linkedin"
@@ -33,20 +28,24 @@
         "className":"fa fa-github"
       },
       {
+        "name":"facebook",
+        "url":"https://www.facebook.com/mathijs.hubrechtsen",
+        "className":"fa fa-facebook"
+      },
+      {
         "name":"twitch",
-	"url": "https://twitch.tv/frosttusk",
-	"className":"fab fa-twitch"
+	      "url": "https://twitch.tv/frosttusk",
+	      "className":"fab fa-twitch"
       }
     ]
   },
   "resume":{
-    "skillmessage":"Due to my curiosity and passion for computer science, I have developed quite a few technical skills. However, I also posses some useful soft skills such as public speaking.",
     "education":[
       {
         "school":"KU Leuven",
         "degree":"Master of Engineering, Computer Science",
         "graduated":"2019-2021",
-        "description":"Specialization Secure Software. During this time I was also an Academics for Development Brightmind student."
+        "description":"Specialization Secure Software."
       },
       {
         "school":"KU Leuven",
@@ -72,15 +71,22 @@
         "company":"Academics for Development Leuven",
         "title":"CleanTech Board Member",
         "years":"March 2020 - Present",
-        "description":"Responsible for organizing the CleanTech challenge entrepreneurship  competition in Leuven."
+        "description":"Responsible for organizing the CleanTech challenge entrepreneurship competition in Leuven."
       },
       {
         "company":"Soundtalks",
         "title":"Software Developer (Student)",
         "years":"July 2018 - August 2018",
         "description":"Worked on building a Python Django Back-End for a new Soundtalks product's Web Application."
+      },
+      {
+        "company":"KU Leuven",
+        "title":"PAL-Tutor",
+        "years":"July 2018 - August 2018",
+        "description":""
       }
     ],
+    "skillmessage":"Due to my curiosity and passion for computer science, I have developed quite a few technical skills. However, I also posses some useful soft skills such as public speaking.",
     "skills":[
       {
         "name":"Python",
@@ -88,19 +94,19 @@
       },
       {
         "name":"Node.js",
-        "level":"50%"
+        "level":"60%"
       },
       {
-        "name":"Embedded Systems",
-        "level":"65%"
-      },
-      {
-        "name":"Linux System Administration",
+        "name":"IoT & Embedded Systems",
         "level":"70%"
       },
       {
-        "name":"Penetration Testing",
+        "name":"Linux System Administration",
         "level":"60%"
+      },
+      {
+        "name":"Penetration Testing",
+        "level":"40%"
       },
       {
         "name":"Public Speaking",
@@ -108,7 +114,11 @@
       },
       {
         "name":"Social Entrepreneurship",
-        "level":"50%"
+        "level":"40%"
+      },
+      {
+        "name":"Innovation",
+        "level":"60%"
       }
     ]
   },
@@ -116,31 +126,31 @@
     "projects": [
       {
         "title":"Zoo Network",
-        "category":"A DIY home lab and computer network. Originally built by recycling old computer equipment, it has grown to also include an entire IoT network.",
+        "category":"A DIY home lab and computer network, originally built by recycling old computer equipment.",
         "image":"zoo-network-logo.png",
         "url":"https://hub.industries"
       },
       {
         "title":"zooWeb",
-        "category":"A DIY home lab and computer network. Originally built by recycling old computer equipment, it has grown to also include an entire IoT network.",
+        "category":"",
         "image":"zoo-web-logo.png",
         "url":"https://hub.industries"
       },
       {
         "title":"Malibu Point",
-        "category":"A DIY home lab and computer network. Originally built by recycling old computer equipment, it has grown to also include an entire IoT network.",
+        "category":"",
         "image":"malibu-point-logo.png",
         "url":"https://github.com/FrostTusk/Malibu-Point-HA"
       },
       {
         "title":"G.I.N.G.E.R.",
-        "category":"A DIY home lab and computer network. Originally built by recycling old computer equipment, it has grown to also include an entire IoT network.",
+        "category":"G.I.N.G.E.R. is a polymorphic Node.js IoT framework, it's intended as both a rapid prototyping framework as well as a framework that can be used in Home Automation contexts.",
         "image":"ginger.jpeg",
         "url":"https://github.com/FrostTusk/G.I.N.G.E.R."
       },
       {
         "title":"Zoo Museum",
-        "category":"A DIY home lab and computer network. Originally built by recycling old computer equipment, it has grown to also include an entire IoT network.",
+        "category":"",
         "image":"zoo-museum-logo.png",
         "url":"https://wiki.hub.industries"
       },
@@ -158,7 +168,7 @@
       },
       {
         "title":"Stream",
-        "category":"Co-authored academic publication on software fuzzing in automotive systems.",
+        "category":"I stream in Science & Technology on twitch.",
         "image":"stream-logo.png",
         "url":"http://twitch.tv/FrostTusk"
       },
@@ -176,7 +186,7 @@
       },
       {
         "title":"DRAMA Stapel Tekenaar",
-        "category":"Co-authored academic publication on software fuzzing in automotive systems.",
+        "category":" Generates DRAMA Stack Frames given DRAMA Assignment Tables.",
         "image":"stapel-tekenaar-logo.png",
         "url":"https://github.com/FrostTusk/DRAMA-Stapel-Tekenaar"
       }
@@ -189,8 +199,16 @@
         "user":"Academics for Development Leuven"
       },
       {
-        "text":"2 time Winner of Ulyssis CTF Best Bachelor Team ",
+        "text":"2 time Winner of Ulyssis CTF Best Bachelor Team",
         "user":"Ulyissis Leuven"
+      },
+      {
+        "text":"2019-2020 AFD Brightmind",
+        "user":"AFD Leuven"
+      },
+      {
+        "text":"2020 AFT Student Start-Up Trip Member",
+        "user":"AFT Leuven"
       }
     ]
   }
