@@ -20,27 +20,27 @@
       {
         "name":"linkedin",
         "url":"https://www.linkedin.com/in/mathijs-hubrechtsen-806248199/",
-        "className":"fa fa-linkedin"
+        "className":"fab fa-linkedin"
       },
       {
         "name":"github",
         "url":"https://github.com/FrostTusk",
-        "className":"fa fa-github"
+        "className":"fab fa-github"
+      },
+      {
+        "name":"twitch",
+        "url": "https://twitch.tv/frosttusk",
+        "className":"fab fa-twitch"
       },
       {
         "name":"twitter",
         "url":"https://twitter.com/FrostTusk",
-        "className":"fa fa-twitter"
+        "className":"fab fa-twitter"
       },
       {
         "name":"facebook",
         "url":"https://www.facebook.com/mathijs.hubrechtsen",
-        "className":"fa fa-facebook"
-      },
-      {
-        "name":"twitch",
-	      "url": "https://twitch.tv/frosttusk",
-	      "className":"fab fa-twitch"
+        "className":"fab fa-facebook"
       }
     ]
   },
