@@ -4,7 +4,7 @@
     "occupation":"Computer Science Student",
     "description":"An ambitious DIY tinkerer with an entrepreneurial spirit",
     "image":"profilepic.jpg",
-    "bio":"I am a passionate computer science student with aspirations to build my own business some day. To me, technology can be used to create a better tomorrow and I want to show people exactly how. I want to make people believe again, to inspire them to believe that contrary to popular belief, a better tomorrow IS possible. My fields of interest include embedded devices, IoT, and cyber security and how these technologies can be used to improve people's lives.",
+    "bio":"I am a passionate computer science student with aspirations to build my own business some day. To me, technology can be used to create a better tomorrow and I want to show people exactly how. My fields of interest include IoT/embedded devices, cyber security and how technology can be used to improve people's lives.",
     "contactmessage":"Want to get in touch with me? (Contact Form WIP)",
     "email": "mathijs.hubrechtsen.public@gmail.com",
     "phone": "",
@@ -26,6 +26,11 @@
         "name":"github",
         "url":"https://github.com/FrostTusk",
         "className":"fa fa-github"
+      },
+      {
+        "name":"twitter",
+        "url":"https://twitter.com/FrostTusk",
+        "className":"fa fa-twitter"
       },
       {
         "name":"facebook",
@@ -65,28 +70,28 @@
         "company":"KU Leuven",
         "title":"Software Security Research Assistant (Student)",
         "years":"January 2019 - Present",
-        "description":"Worked on various Penetration Testing assignments in Embedded Systems. These included investigating the applications of Software Fuzzing in Automotive Systems, expanding KULeuven's Vehicular Software Security Research in general and explore Security solutions for Experimental V2X systems."
+        "description":"During an extended partnership with KULeuven, I worked on various Penetration Testing assignments in Embedded Systems. These included investigating the applications of Software Fuzzing in Automotive Systems, expanding KULeuven's Vehicular Software Security Research in general and exploring Security solutions for Experimental V2X systems."
       },
       {
         "company":"Academics for Development Leuven",
         "title":"CleanTech Board Member",
         "years":"March 2020 - Present",
-        "description":"Responsible for organizing the CleanTech challenge entrepreneurship competition in Leuven."
+        "description":"In this position, I was the AFD Leuven board member responsible for organizing Leuven's CleanTech challenge. The CleanTech challenge is an entrepreneurship competition combined with a workshop track which aims to provide students an opportunity to gain hands-on experience with social entrepreneurship in the technology sector."
       },
       {
         "company":"Soundtalks",
         "title":"Software Developer (Student)",
         "years":"July 2018 - August 2018",
-        "description":"Worked on building a Python Django Back-End for a new Soundtalks product's Web Application."
+        "description":"Student Job where I worked on building a Python Django Back-End for a new Soundtalks product's Web Application."
       },
       {
         "company":"KU Leuven",
         "title":"PAL-Tutor",
-        "years":"July 2018 - August 2018",
-        "description":""
+        "years":"October 2017 - August 2018",
+        "description":"Peer-Assisted-Learning tutoring service for first year Computer Science students. We provided free tutoring for first year classes and projects."
       }
     ],
-    "skillmessage":"Due to my curiosity and passion for computer science, I have developed quite a few technical skills. However, I also posses some useful soft skills such as public speaking.",
+    "skillmessage":"",
     "skills":[
       {
         "name":"Python",
@@ -131,34 +136,34 @@
         "url":"https://hub.industries"
       },
       {
-        "title":"zooWeb",
-        "category":"",
-        "image":"zoo-web-logo.png",
-        "url":"https://hub.industries"
-      },
-      {
         "title":"Malibu Point",
-        "category":"",
+        "category":"Malibu Point is a smart home infrastructure which makes use of (amongst others) Home Assistant, Google Home and various custom components.",
         "image":"malibu-point-logo.png",
         "url":"https://github.com/FrostTusk/Malibu-Point-HA"
       },
       {
         "title":"G.I.N.G.E.R.",
-        "category":"G.I.N.G.E.R. is a polymorphic Node.js IoT framework, it's intended as both a rapid prototyping framework as well as a framework that can be used in Home Automation contexts.",
+        "category":"G.I.N.G.E.R. is a polymorphic Node.js IoT framework, it's intended as both a rapid prototyping framework as well as a framework that can be used in automation contexts.",
         "image":"ginger.jpeg",
         "url":"https://github.com/FrostTusk/G.I.N.G.E.R."
-      },
-      {
-        "title":"Zoo Museum",
-        "category":"",
-        "image":"zoo-museum-logo.png",
-        "url":"https://wiki.hub.industries"
       },
       {
         "title":"Caring Caribou",
         "category":"A friendly car security exploration tool",
         "image":"caring-caribou-logo.png",
         "url":"https://github.com/CaringCaribou/caringcaribou"
+      },
+      {
+        "title":"zooWeb",
+        "category":"A personal web infrastructure which runs a variety of custom sites.",
+        "image":"zoo-web-logo.png",
+        "url":"https://hub.industries"
+      },
+      {
+        "title":"Zoo Museum",
+        "category":"The Zoo Museum is a wiki dedicated to Hub Industries and my various endeavours.",
+        "image":"zoo-museum-logo.png",
+        "url":"https://wiki.hub.industries"
       },
       {
         "title":"Publication",
@@ -168,7 +173,7 @@
       },
       {
         "title":"Stream",
-        "category":"I stream in Science & Technology on twitch.",
+        "category":"I stream Science & Technology content on twitch.",
         "image":"stream-logo.png",
         "url":"http://twitch.tv/FrostTusk"
       },
