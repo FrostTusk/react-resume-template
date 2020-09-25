@@ -146,9 +146,8 @@
       var contactSubject = $('#contactForm #contactSubject').val();
       var contactMessage = $('#contactForm #contactMessage').val();
       var data = 'contactName=' + contactName + '&contactEmail=' + contactEmail +
-               '&contactSubject=' + contactSubject + '&contactMessage=' + contactMessage;
-      console.log(token);
-      
+               '&contactSubject=' + contactSubject + '&contactMessage=' + contactMessage+ '&token=' + token;
+
       $.ajax({
 
         type: "POST",
@@ -176,5 +175,5 @@
       return false;
    }
 
-   $('form#contactForm button.submit').click(mailSubmit);
+   // $('form#contactForm button.submit').click(mailSubmit);
 });
