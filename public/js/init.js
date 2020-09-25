@@ -137,7 +137,7 @@
 /*	contact form
 ------------------------------------------------------*/
 
-   $('form#contactForm button.submit').click(function() {
+   function mailSubmit(token) {
 
       $('#image-loader').fadeIn();
 
@@ -145,44 +145,36 @@
       var contactEmail = $('#contactForm #contactEmail').val();
       var contactSubject = $('#contactForm #contactSubject').val();
       var contactMessage = $('#contactForm #contactMessage').val();
-
       var data = 'contactName=' + contactName + '&contactEmail=' + contactEmail +
                '&contactSubject=' + contactSubject + '&contactMessage=' + contactMessage;
-
+      console.log(token);
+      
       $.ajax({
 
-	      type: "POST",
-	      url: "inc/sendEmail.php",
-	      data: data,
-	      success: function(msg) {
+        type: "POST",
+        url: "inc/sendEmail.php",
+        data: data,
+        success: function(msg) {
 
             // Message was sent
             if (msg == 'OK') {
                $('#image-loader').fadeOut();
                $('#message-warning').hide();
                $('#contactForm').fadeOut();
-               $('#message-success').fadeIn();   
+               $('#message-success').fadeIn();
             }
             // There was an error
             else {
                $('#image-loader').fadeOut();
                $('#message-warning').html(msg);
-	            $('#message-warning').fadeIn();
+              $('#message-warning').fadeIn();
             }
 
-	      }
+        }
 
       });
       return false;
-   });
+   }
 
-
+   $('form#contactForm button.submit').click(mailSubmit);
 });
-
-
-
-
-
-
-
-

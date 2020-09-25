@@ -60,7 +60,7 @@ class Contact extends Component {
                   </div>
 
                   <div>
-                     <button className="submit">Submit</button>
+                     <button className="submit g-recaptcha" data-sitekey="6LeVh9AZAAAAAHIGEFeeR8wdouEbvWCyFD2uzw00" data-callback='mailSubmit' data-action='submit'>Submit</button>
                      <span id="image-loader">
                         <img alt="" src="images/loader.gif" />
                      </span>
