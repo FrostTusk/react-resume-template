@@ -155,13 +155,13 @@
       },
       {
         "title":"zooWeb",
-        "category":"A personal web infrastructure which runs a variety of custom sites.",
+        "category":"A personal web infrastructure which runs a variety of custom sites. Also includes a portfolio website.",
         "image":"zoo-web-logo.png",
-        "url":"https://hub.industries"
+        "url":"https://hub.industries/me"
       },
       {
         "title":"Zoo Museum",
-        "category":"The Zoo Museum is a wiki dedicated to Hub Industries and my various endeavours.",
+        "category":"The Zoo Museum is a wiki dedicated to Hub Industries and my various endeavors.",
         "image":"zoo-museum-logo.png",
         "url":"https://wiki.hub.industries"
       },
